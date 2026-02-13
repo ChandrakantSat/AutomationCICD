@@ -15,7 +15,7 @@ public class Login_Page
 
     public void enterUsername(String user) throws InterruptedException 
     {
-    	Thread.sleep(2000);
+    	Thread.sleep(3000);
         driver.findElement(By.name("username")).sendKeys(user);
     }
 
